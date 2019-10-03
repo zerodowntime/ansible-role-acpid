@@ -53,4 +53,4 @@ This section describes static variables implemented in the role.
 
 ZeroDowntime Team <support@zdt.io>
 
-More about the *building blocks* project you will find by visiting <https://www.zdt.io/building-blocks/>.
+For more information about the project, please visit <https://www.zdt.io/building-blocks/>.
