@@ -1,0 +1,29 @@
+---
+# zerodowntime.acpid/tasks/main.yml
+
+
+- name: Install Advanced Configuration and Power Interface event daemons
+  package:
+    name: "{{ acpid__package_name }}"
+    state: "{{ acpid__package_state }}"
+  tags:
+    - acpid
+    - acpid::install
+
+
+- name: Ensure that service is enabled
+  service:
+    name: "{{ acpid__service_name }}"
+    enabled: true
+  tags:
+    - acpid
+    - acpid::install
+
+
+- name: Ensure that service is running
+  service:
+    name: "{{ acpid__service_name }}"
+    state: started
+  tags:
+    - acpid
+    - acpid::install

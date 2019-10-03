@@ -1,0 +1,16 @@
+---
+# zerodowntime.acpid/vars/main.yml
+
+
+#? acpid__package_name:
+#?   type: string
+#?   description: Package name to be installed
+#?   required: True
+acpid__package_name: acpid
+
+
+#? acpid__service_name:
+#?   type: string
+#?   description: Service name
+#?   required: True
+acpid__service_name: acpid

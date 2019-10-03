@@ -1,0 +1,21 @@
+---
+# zerodowntime.acpid/meta/main.yml
+
+galaxy_info:
+  role_name: acpid
+  description: Role to install and enable acpid daemon
+  author: ZeroDowntime Team <ansible@zerodowntime.pl>
+  company: ZeroDowntime Sp. z o.o.
+  license: Apache License 2.0
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: CentOS
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        - 16.4
+  galaxy_tags:
+    - system

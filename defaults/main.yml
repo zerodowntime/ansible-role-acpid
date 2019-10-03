@@ -1,0 +1,9 @@
+---
+# zerodowntime.acpid/defaults/main.yml
+
+
+#? acpid__package_state:
+#?   type: string
+#?   description: Whether to install the package or not
+#?   required: True
+acpid__package_state: present
