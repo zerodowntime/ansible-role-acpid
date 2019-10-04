@@ -9,7 +9,7 @@ Role to install acpid, Advanced Configuration and Power Interface event daemon.
 ### Supported platforms
 
 ```yml
-- CentOS
+- EL
   - 7
 - Ubuntu
   - 16.4
