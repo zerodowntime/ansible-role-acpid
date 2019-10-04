@@ -12,7 +12,7 @@ Role to install acpid, Advanced Configuration and Power Interface event daemon.
 - EL
   - 7
 - Ubuntu
-  - 16.4
+  - xenial
 ```
 
 ## Default role variables
